@@ -3,9 +3,14 @@ This program declares, initializes and prints three different types of variables
  */
 public class VarTry {
     public static void main(String[] args) {
-        int testscore = 50;                     // declares and assigns test score
-        double price = 24.99;                   // declares and assigns price value
-        String username = "Bobby Johnson";      // declares and assigns username
+
+        // declare & initialize three primitive type variables.
+
+        int testscore = 50;
+        double price = 24.99;
+        String username = "Bobby Johnson";
+
+        // prints the variables with description concatenated.
 
         System.out.println("Test Score initialized is: " + testscore);
         System.out.println("Price tag: " + price);
